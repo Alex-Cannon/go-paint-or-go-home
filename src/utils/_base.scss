@@ -1,0 +1,19 @@
+// Base Styles for whole app
+@import '../assets/fonts/Chilanka/Chilanka-Regular.ttf';
+@import './variables';
+
+:root {
+  font-size: 17px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Chilanka', Arial, Helvetica, sans-serif;
+  background-size: 25px 25px;
+  background-image: linear-gradient(rgba(0, 0, 200, 0.1) 1px, transparent 1px);
+}
