@@ -29,7 +29,7 @@ This app was bootstrapped with Create React App.
 
 * Front End
 
-React, Typescript, GraphQL, HTML, Sass
+React, Typescript, GraphQL, HTML, Sass, Jest
 
 * Back End
 
