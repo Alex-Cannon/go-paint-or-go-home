@@ -28,7 +28,9 @@ yarn start
 This app was bootstrapped with Create React App.
 
 * Front End
+
 React, Typescript, GraphQL, HTML, Sass
 
 * Back End
+
 NodeJS, Express, Mongoose, MongoDB
