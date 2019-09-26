@@ -23,3 +23,12 @@ npm start
 3. Create a new branch _my-cool-feature_
 4. Push your changes to your fork
 5. Create a pull request to _/dev_
+
+# Technologies
+This app was bootstrapped with Create React App.
+
+* Front End
+React, Typescript, GraphQL, HTML, Sass
+
+* Back End
+NodeJS, Express, Mongoose, MongoDB
