@@ -9,12 +9,12 @@ Run the app locally by following the instructions below:
 ## Run the app
 1. Install dependencies
 ```
-npm install
+yarn install
 ```
 
 2. Start Development
 ```
-npm start
+yarn start
 ```
 
 ## Git Workflow
