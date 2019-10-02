@@ -1,0 +1,41 @@
+version: "3"
+services:
+  web:
+    build: .
+    container_name: go-paint
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "80:3000"
+    networks:
+      - webnet
+    volumes:
+      - ./:/app
+    command: yarn start
+  api:
+    build: .
+    container_name: go-paint-api
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "8973:8973"
+    networks:
+      - webnet
+    volumes:
+      - ./:/app
+    command: node index.js
+
+networks:
+  webnet:

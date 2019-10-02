@@ -8,7 +8,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <nav>
-          nav
+          nav man
         </nav>
       </header>
       Routes
