@@ -1,5 +1,5 @@
 # _Go Paint Or Go Home!_
-&copy; Alexander Cannon 2019
+&copy; Alexander Lee Cannon 2019
 
 Party game in the browser. Play with friends! May the best painting win!
 
