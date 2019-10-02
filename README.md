@@ -8,7 +8,7 @@ Created by [Alexander Lee Cannon](https://alex-cannon.github.io/portfolio)
 # Get Started
 Run the app locally.
 
-## Use Docker (Recommended)
+## Run with Docker (Recommended)
 Run the following command to start the app and begin development.
 
 ```
@@ -19,7 +19,7 @@ docker-compose up
 
 * You can use [Virutalbox](https://www.virtualbox.org) to avoid paying for Docker on Windows or if you'd like a separate development environment.
 
-## Use Native Libraries (Not maintained)
+## Run Natively (Not maintained)
 1. Install dependencies
 ```
 yarn install
