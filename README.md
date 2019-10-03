@@ -46,13 +46,13 @@ node index.js
 6. We will review the pull request
 
 # Technologies
-This app was bootstrapped with Create React App.
 
 * Front End
 
-React, Typescript, GraphQL, HTML, Sass, Jest
+React, Typescript, GraphQL, HTML, CSS, Sass, Jest
 
 * Back End
 
 NodeJS, Express, Mongoose, MongoDB
 
+This app was bootstrapped with Create React App.
